@@ -1,0 +1,21 @@
+
+
+a { color:#09C; font-weight: bold; }
+
+p { font-size: 12px; margin: 0 0 10px; }
+
+ul li { font-size: 12px; }
+
+#container { width: 960px; margin: 0 auto; }
+
+#title { width: 580px; margin: 0 auto }
+
+#title h1 { width: 580px; background-color: #CCCCCC; color: #FFFFFF; font-size: 40px; font-style: italic; text-shadow: 1px 1px 1px #999999; margin: 30px 0 10px; }
+
+#title p { font-size: 16px; color:#333;  }
+
+/* the CSS you want is below */
+.mymail { float: center; width: 225px; }
+
+
+.toggleMe { display: none; } /* makes sure you don't see it while loading page */

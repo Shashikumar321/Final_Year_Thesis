@@ -1,0 +1,24 @@
+table
+{
+	border-style:solid;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	width:580px;
+	padding:50px
+}
+th
+{
+	text-decoration:underline;
+	text-align:center;
+	padding-bottom:10px;
+}
+#color
+{
+	background:  -moz-linear-gradient(linear, 0% 0%, 0% 100%, from(#BDE1F5), to(#F8FBFC));
+    background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#BDE1F5), to(#F8FBFC));
+}
+td
+{	
+	padding-bottom:10px;
+	text-align:left;
+}

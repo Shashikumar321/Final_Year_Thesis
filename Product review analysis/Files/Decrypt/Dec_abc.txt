@@ -1,0 +1,14 @@
+class demo
+{
+public static void main(String args[])
+{
+System.out.println("Hiiiiiii");
+
+for(char one = ‘a’; one < = ‘f’; one++) {
+for(int i = 1; i < = 3; i++) {
+System.out.print(“ “ + one + i);
+}
+System.out.println();
+}
+}
+}

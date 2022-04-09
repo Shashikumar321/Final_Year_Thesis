@@ -1,0 +1,70 @@
+.panel
+{	position:absolute;
+	text-align:right;
+	top:150px;
+	left:10px;
+	border:10px solid #6C7494;
+	border-radius: 40px; /*w3c border radius*/
+	-moz-border-radius: 40px; /* mozilla border radius */
+	-webkit-border-radius: 40px; /* webkit border radius */
+	
+	width:180px;		
+	
+	background:  -moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+}
+#text
+{
+	color:#03FB0C;
+	width:200px;
+}
+.gradientbuttons
+{
+	text-decoration: none;
+	padding: 5px 7px;
+	
+	margin-right: 5px;
+	border: 1px solid #778;
+	color: white;
+	
+	border:0px solid gray;
+
+	border-radius: 400px; /*w3c border radius*/
+	-moz-border-radius: 400px; /* mozilla border radius */
+	-webkit-border-radius: 400px; /* webkit border radius */
+	
+	box-shadow: 3px 3px 4px rgba(0,0,0,.5); /* w3c box shadow */
+	-moz-box-shadow: 3px 3px 4px rgba(0,0,0,.5); /* mozilla box shadow */
+	-webkit-box-shadow: 3px 3px 4px rgba(0,0,0,.5); /* webkit box shadow */
+	
+	background:  -moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+	
+	cursor:hand;
+}
+
+
+p#effect img{ 
+position:relative;
+top:10px;
+left:10px;
+height:30;
+width:30;
+-moz-transition: all 0.8s ease-in-out;
+-webkit-transition: all 0.8s ease-in-out;
+-o-transition: all 0.8s ease-in-out;
+-ms-transition: all 0.8s ease-in-out;
+transition: all 0.8s ease-in-out;	
+}
+
+p#effect img:hover
+{ 
+-moz-transform: rotate(360deg);
+-webkit-transform: rotate(360deg);
+-o-transform: rotate(360deg);
+-ms-transform: rotate(360deg);
+transform: rotate(360deg);
+}
+
+
+

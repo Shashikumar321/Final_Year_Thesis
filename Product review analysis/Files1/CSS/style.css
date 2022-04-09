@@ -1,0 +1,66 @@
+
+body
+{
+	margin: 0;
+    padding: 0;
+	background:  -moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+}
+.banner 
+{
+    width: 100%;
+}
+h1,h3,a
+{
+	text-decoration:none;
+	color: white;
+	text-shadow: 5px 5px 3px #414141;
+	
+}
+.para1
+{
+	text-indent: 1.0em;
+	padding-left:30px;
+	height:400px;
+	width:420px;
+	position:absolute;
+	top:100px;
+}
+.para2
+{
+	text-indent: 1.0em;
+	padding-left:30px;
+	height:400px;
+	width:520px;
+	position:absolute;
+	top:100px;
+	left:430px;
+}
+.uparrowdiv, .downarrowdiv, .leftarrowdiv, .rightarrowdiv
+{
+	
+	min-height:40px; /*min height of DIV should be set to at least 2x the width of the arrow*/
+	background:  -moz-linear-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+    background:-webkit-gradient(linear, 40% 20%, 50% 150%, from(#D1DDFA), to(#1B5AEF));
+	color:black;
+	padding:0px;
+	word-wrap:break-word;
+	-moz-border-radius:10px; /*add some nice CSS3 round corners*/
+	-webkit-border-radius:10px;
+	border-radius:10px;
+	margin-bottom:2em;
+	text-align:center;
+	
+	
+}
+.welcome
+{
+	position:absolute;
+	top:120px;
+	left:850px;	
+	text-decoration:none;
+	font-size:20px;
+	color: white;
+	text-shadow: 5px 5px 3px #414141;
+}
+
